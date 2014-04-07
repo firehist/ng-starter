@@ -57,7 +57,8 @@ module.exports = function ( grunt ) {
     changelog: {
       options: {
         dest: 'CHANGELOG.md',
-        template: 'changelog.tpl'
+        template: 'changelog.tpl',
+        from: '83801dc2ca32e4ae09c4b0fc4566f116a7803874'
       }
     },
 
